@@ -1,0 +1,110 @@
+client:
+  api_key: 
+  api_url: https://bt.group-ib.com/api/v2/
+  big_data_limit: 20
+  data_dir: data/
+  default_limit: 100
+  username: 
+collections:
+  apt/threat:
+    default_date: 
+    enable: false
+    seqUpdate: 
+  apt/threat_actor:
+    default_date:
+    enable: false
+    seqUpdate: 
+  attacks/ddos:
+    default_date:
+    enable: false
+    seqUpdate: 
+  attacks/deface:
+    default_date:
+    enable: false
+    seqUpdate: 
+  attacks/phishing:
+    default_date:
+    enable: false
+    seqUpdate: 
+  attacks/phishing_kit:
+    default_date:
+    enable: false
+    seqUpdate: 
+  bp/phishing:
+    default_date: 
+    enable: false
+    seqUpdate: 
+  bp/phishing_kit:
+    default_date: 
+    enable: false
+    seqUpdate: 
+  compromised/account:
+    default_date: 
+    enable: false
+    seqUpdate: 
+  compromised/card:
+    default_date: 
+    enable: false
+    seqUpdate: 
+  compromised/file:
+    default_date: 
+    enable: false
+    seqUpdate: 
+  compromised/imei:
+    default_date: 
+    enable: false
+    seqUpdate: 
+  compromised/mule:
+    default_date: 
+    enable: false
+    seqUpdate: 
+  hi/threat:
+    default_date: 
+    enable: false
+    seqUpdate: 
+  hi/threat_actor:
+    default_date: 
+    enable: false
+    seqUpdate: 
+  malware/cnc:
+    default_date: 
+    enable: false
+    seqUpdate: 
+  malware/malware:
+    default_date: 
+    enable: false
+    seqUpdate: 
+  malware/targeted_malware:
+    default_date: 
+    enable: false
+    seqUpdate: 
+  osi/git_leak:
+    default_date: 
+    enable: false
+    seqUpdate: 
+  osi/public_leak:
+    default_date: 
+    enable: false
+    seqUpdate: 
+  osi/vulnerability:
+    default_date: 
+    enable: false
+    seqUpdate: 
+  suspicious_ip/open_proxy:
+    default_date: 
+    enable: false
+    seqUpdate: 
+  suspicious_ip/socks_proxy:
+    default_date: 
+    enable: false
+    seqUpdate: 
+  suspicious_ip/tor_node:
+    default_date: 
+    enable: false
+    seqUpdate: 
+proxy:
+  ip_addr: 
+  password: 
+  port: 
+  protocol: #http or https
+  username: 
